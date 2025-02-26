@@ -1,5 +1,5 @@
 ---
-sidebar_position: 18
+sidebar_position: 5
 title: Ollama - Le modèle d'IA local et accessible
 ---
 

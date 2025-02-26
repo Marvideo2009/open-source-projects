@@ -32,6 +32,21 @@ const config: Config = {
   //   locales: ['en'],
   // },
 
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        hashed: true,
+        language: "fr",
+        indexDocs: true,
+        indexPages: true,
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+      })
+    ]
+  ],
+
   presets: [
     [
       'classic',
@@ -68,7 +83,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    // image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Open source projects',
       logo: {
@@ -99,7 +114,7 @@ const config: Config = {
       ],
     },
     footer: {
-      style: 'dark',
+      // style: 'dark',
       links: [
         {
           title: 'Docs',
@@ -115,17 +130,17 @@ const config: Config = {
           items: [
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            }
+              href: 'https://discord.gg/mSqWnbZxFW',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/Marvideo2009/open-source-projects',
+            },
           ],
         },
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
             {
               label: 'GitHub',
               href: 'https://github.com/Marvideo2009/open-source-projects',

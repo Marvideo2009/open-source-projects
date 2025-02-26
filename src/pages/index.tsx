@@ -9,10 +9,10 @@ export default function Home() {
       title={siteConfig.title}
       description={siteConfig.tagline}
     >
-      <header className="hero hero--primary">
+      <header className="hero">
         <div className="container">
-          <h1 className="hero__title" style={{ color: '#1b4571' }}>Bienvenue sur {siteConfig.title}</h1>
-          <p className="hero__subtitle" style={{ color: '#1b4571' }}>
+          <h1 className="hero__title">Bienvenue sur {siteConfig.title}</h1>
+          <p className="hero__subtitle">
             {siteConfig.tagline}
           </p>
           <div>
