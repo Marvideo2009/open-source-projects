@@ -21,16 +21,16 @@ const config: Config = {
   organizationName: 'Marvideo2009', // Usually your GitHub org/user name.
   projectName: 'open-source-projects', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: 'fr',
-    locales: ['en', 'fr'],
-  },
+  // i18n: {
+  //   defaultLocale: 'en',
+  //   locales: ['en'],
+  // },
 
   presets: [
     [

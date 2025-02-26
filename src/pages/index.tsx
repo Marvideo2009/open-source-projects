@@ -16,7 +16,7 @@ export default function Home() {
             {siteConfig.tagline}
           </p>
           <div>
-            <Link className="button button--secondary button--lg" to="/docs">
+            <Link className="button button--secondary button--lg" to="/docs/intro">
               Commencer 🚀
             </Link>
           </div>

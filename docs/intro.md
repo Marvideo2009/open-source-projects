@@ -1,7 +1,6 @@
 ---
 sidebar_position: 1
 title: Introduction
-slug: /
 ---
 
 # 🚀 Bienvenue dans la documentation
